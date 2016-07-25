@@ -1,0 +1,9 @@
+{
+    "lower_2sig_expected_CLs" : 9.1
+    "lower_1sig_expected_CLs" : 4.3,
+    "expected_CLs" : 32.2,
+    "upper_1sig_expected_CLs" : 89.3,
+    "upper_2sig_expected_CLs" : 3.2,
+    "observed_CLs": 32.1,
+    "log_likelihood_at_reference": 43.2
+}
