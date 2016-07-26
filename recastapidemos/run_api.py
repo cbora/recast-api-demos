@@ -15,7 +15,7 @@ r = RecastApi(request_id)
 recastapi.ORCID_ID = os.environ.get('RECASTAPI_ORCID_ID', '')
 recastapi.ACCESS_TOKEN = os.environ.get('RECASTAPI_ACCESS_TOKEN', '')
 
-r.add_parameter_from_file('data/param_data.yaml') #'arg is hardcoded for testing purpose')
+r.add_point_from_file('data/param_data.yaml') #'arg is hardcoded for testing purpose')
 
 data = {'coordinates': [{'name': 'a', 'value': 1},
                         {'name': 'b', 'value': 2}],
