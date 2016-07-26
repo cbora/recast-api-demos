@@ -10,7 +10,7 @@ request_id = 5
 if request_id == 0:
     raise Exception('request id not set')
 
-api = RecastApi(request_id)
+r = RecastApi(request_id)
 
 recastapi.ORCID_ID = os.environ.get('RECASTAPI_ORCID_ID', '')
 recastapi.ACCESS_TOKEN = os.environ.get('RECASTAPI_ACCESS_TOKEN', '')
