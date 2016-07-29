@@ -19,8 +19,8 @@ r.add_point_from_file('data/param_data.yaml') #'arg is hardcoded for testing pur
 
 data = {'coordinates': [{'name': 'a', 'value': 1},
                         {'name': 'b', 'value': 2}],
-        'basic': [{'filename': 'samples/file11.zip'},
-                  {'filename': 'samples/file12.zip'}]
+        'basic': [{'filename': 'data/file11.zip'},
+                  {'filename': 'data/file12.zip'}]
         }
 r.printout()
 
